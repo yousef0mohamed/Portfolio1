@@ -1,0 +1,160 @@
+body {
+    color: #04120f;
+    margin: 0;
+    text-align: center;
+    /*font-family: 'Merriweather', serif;*/
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 0;
+}
+.top {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+h1 {
+    color: #3d9df1;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #3d9df1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3d9df1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a {
+    color: #3d9df1;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+header {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+main {
+    margin: 100px 0;
+}
+
+footer {
+    background-color: #3d9df1;
+    padding: 50px 0 20px;
+}
+.skill-list {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-row {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+.skill-table {
+    width: 70%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.skill-table th,
+.skill-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.skill-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.skill-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.skill-table th,
+.skill-table td {
+    font-size: 16px;
+    color: #333; /* Adjust font color */
+}
+
+.mainn{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.second{
+    font-size: 18px;
+    color:brown;
+    margin-left: 20px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    font-size:xx-large;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+
+.bottom {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.btn {
+    background: #3d9df1;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
